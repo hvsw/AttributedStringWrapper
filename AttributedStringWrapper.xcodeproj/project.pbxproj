@@ -13,6 +13,10 @@
 		62FC6450223C4CFD00119149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FC644F223C4CFD00119149 /* Assets.xcassets */; };
 		62FC6453223C4CFD00119149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FC6451223C4CFD00119149 /* LaunchScreen.storyboard */; };
 		62FC645E223C4CFD00119149 /* AttributedStringWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC645D223C4CFD00119149 /* AttributedStringWrapperTests.swift */; };
+		62FC6469223C4D2D00119149 /* StringAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC6468223C4D2D00119149 /* StringAttribute.swift */; };
+		62FC646B223C4D5F00119149 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC646A223C4D5F00119149 /* Dictionary+Extensions.swift */; };
+		62FC646D223C4D7000119149 /* Array+StringAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC646C223C4D7000119149 /* Array+StringAttribute.swift */; };
+		62FC646F223C4D8400119149 /* NSAttributedString+StringAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC646E223C4D8400119149 /* NSAttributedString+StringAttribute.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		62FC6459223C4CFD00119149 /* AttributedStringWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributedStringWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FC645D223C4CFD00119149 /* AttributedStringWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedStringWrapperTests.swift; sourceTree = "<group>"; };
 		62FC645F223C4CFD00119149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FC6468223C4D2D00119149 /* StringAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAttribute.swift; sourceTree = "<group>"; };
+		62FC646A223C4D5F00119149 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		62FC646C223C4D7000119149 /* Array+StringAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+StringAttribute.swift"; sourceTree = "<group>"; };
+		62FC646E223C4D8400119149 /* NSAttributedString+StringAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+StringAttribute.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				62FC644F223C4CFD00119149 /* Assets.xcassets */,
 				62FC6451223C4CFD00119149 /* LaunchScreen.storyboard */,
 				62FC6454223C4CFD00119149 /* Info.plist */,
+				62FC6468223C4D2D00119149 /* StringAttribute.swift */,
+				62FC646A223C4D5F00119149 /* Dictionary+Extensions.swift */,
+				62FC646C223C4D7000119149 /* Array+StringAttribute.swift */,
+				62FC646E223C4D8400119149 /* NSAttributedString+StringAttribute.swift */,
 			);
 			path = AttributedStringWrapper;
 			sourceTree = "<group>";
@@ -197,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FC6469223C4D2D00119149 /* StringAttribute.swift in Sources */,
+				62FC646F223C4D8400119149 /* NSAttributedString+StringAttribute.swift in Sources */,
 				62FC644B223C4CFC00119149 /* ViewController.swift in Sources */,
 				62FC6449223C4CFC00119149 /* AppDelegate.swift in Sources */,
+				62FC646D223C4D7000119149 /* Array+StringAttribute.swift in Sources */,
+				62FC646B223C4D5F00119149 /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
