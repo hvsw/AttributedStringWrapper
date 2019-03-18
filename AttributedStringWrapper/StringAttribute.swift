@@ -105,3 +105,12 @@ extension StringAttribute: RawRepresentable {
         }
     }
 }
+
+// To use with Set
+extension StringAttribute: Hashable {
+    public var hashValue: Int {
+        // Since we don't care about the associated value, we can simply check if this key is already on this list. Of course, we're considering the key hashValue only, because this is to be used with a Set.
+        // A "valid" hash would also take in consideration the associated value
+        return self.rawValue.hashValue
+    }
+}

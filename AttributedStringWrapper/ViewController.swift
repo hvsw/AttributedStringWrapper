@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     // MARK: Private Variables
     
     // Here we declare a list of NSAttributedString.Key wiht a much nicer and type safe approach
-    private lazy var attributes:[StringAttribute] = [
+    private lazy var attributes:Set<StringAttribute> = [
         .font(.systemFont(ofSize: 100)),
         .backgroundColor(.yellow),
         .strokeWidth(-2),
